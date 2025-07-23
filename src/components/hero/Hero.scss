@@ -49,13 +49,13 @@
       }
     }
     .hero__image {
-      width: 800px;
-      height: 550px;
+      width: 850px;
+      height: 500px;
       transform: translateX(130px);
       img {
         width: 100%;
         height: 100%;
-        object-fit: center/cover;
+        // object-fit: cover;
       }
     }
   }
@@ -78,21 +78,16 @@
 @media (max-width: 1450px) {
   .hero {
     &__wrapper {
-      .hero__title {
-      }
       .hero__image {
         transform: translateX(0);
       }
     }
-    &__icons {
-    }
+
   }
 }
 @media (max-width: 1200px) {
   .hero {
     &__wrapper {
-      .hero__title {
-      }
       .hero__image {
         padding-right: 25px;
         width: 835px;
@@ -207,7 +202,8 @@
         .hero__image {
             margin-top: 50px;
           // padding-right: 20px;
-          width: 740px;
+          width: 750px;
+          height: auto;
           img {
             width: 100%;
             height: 100%;
